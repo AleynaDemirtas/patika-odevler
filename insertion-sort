@@ -1,0 +1,42 @@
+PROJE 1
+
+SORU 1)
+Adım 1) (22,27,16,2,18,6)
+27 ile 22'yi karşılaştırırız ve 27 22'den büyük olmadığı için yer değiştirmeyiz.
+
+Adım 2) (16,22,27,2,18,6)
+Bu sefer key değerimiz 16 ve 16 ile solundaki değerleri teker teker karşılaştırırız. 27 ve 22'den küçük olduğunu için en başa alırız.
+
+Adım 3) (2,16,22,27,18,6)
+Key değerimiz 2. Solundaki değerler ile karşılaştırırız ve hepsinden küçük olduğu için en başa alırız.
+
+Adım 4) (2,16,18,22,27,6)
+Key değerimiz 18. Solundaki değerler ile karşılaştırırız ve 16'dan büyük olduğu için 16'nın sağına yazarız.
+
+Adım 5) (2,6,16,18,22,27)
+Key değerimiz 6. Solundaki değerler ile karşılatırırız ve 2'den büyük olduğu için 2. sıraya yazarız.
+
+SORU 2)
+O(n^2)
+
+SORU 3) 
+Worst case => O(n^2)
+Average Case => O(n^2)
+Best Case => O(n)
+
+SORU 4)
+18 Sayısı veri dizisinin ortasında yer aldığı için Avarage Case kapsamına girer.
+
+SORU 5)
+ [7,3,5,8,2,9,4,15,6]
+Adım 1 (3,7,5,8,2,9,4,15,6)
+3 ile 7'yi karşılaştırırız ve 3 7'den küçük olduğu için yer değiştiririz.
+
+Adım 2 (3,5,7,8,2,9,4,15,6)
+Bu sefer key değerimiz 5 ve 5 ile solundaki değerleri teker teker karşılaştırırız. 7'den küçük olduğunu için 7'nin soluna alırız.
+
+Adım 3 (3,5,7,8,2,9,4,15,6)
+Key değerimiz 8. Solundaki değerler ile karşılaştırırız ve hiçbirinden küçük olmadığı için olduğu yerde bırakırız.
+
+Adım 4 (2,3,5,7,8,9,4,15,6)
+Key değerimiz 2. Solundaki değerler ile karşılaştırırız ve solundaki tüm değerlerden küçük olduğu için 3'ün soluna yazarız.
